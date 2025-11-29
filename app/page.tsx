@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch("https://cc235-tp-tf-2025-1.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
