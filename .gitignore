@@ -1,5 +1,60 @@
-/fft_train
-/test
-/train
-/train2
-/__pycache__
+# -------------------------
+# Node / JavaScript
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# -------------------------
+# Next.js build outputs
+# -------------------------
+.next/
+out/
+
+# -------------------------
+# General build / dist
+# -------------------------
+build/
+dist/
+
+# -------------------------
+# Python / FastAPI
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+*.log
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env*
+*.pem
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tsbuildinfo
+
+# -------------------------
+# Vercel / Deployment
+# -------------------------
+.vercel/
+
+# -------------------------
+# Coverage / Testing
+# -------------------------
+coverage/

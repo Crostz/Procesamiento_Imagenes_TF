@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/mayta/projects/Image%20Processing/Trabajo_Final_Imagenes/ai-detector/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\nimport React from \"react\";\n\nconst App: React.FC = () => {\n  return (\n\n    \n\n    <div className=\"flex h-screen\">\n      {/* Main Content */}\n      <main className=\"flex-1 bg-gray-100 p-6\">\n        <h2 className=\"text-3xl font-bold\">Welcome to the AI Detector</h2>\n        <p className=\"mt-4\">This is your main content area.</p>\n      </main>\n    </div>\n  );\n};\n\nexport default App;"],"names":[],"mappings":";;;;;;AAIA,MAAM,MAAgB;IACpB,qBAIE,8OAAC;QAAI,WAAU;kBAEb,cAAA,8OAAC;YAAK,WAAU;;8BACd,8OAAC;oBAAG,WAAU;8BAAqB;;;;;;8BACnC,8OAAC;oBAAE,WAAU;8BAAO;;;;;;;;;;;;;;;;;AAI5B;uCAEe"}}]
+}

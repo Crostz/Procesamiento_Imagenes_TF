@@ -1,3 +1,4 @@
+
 **Objetivo del trabajo**
 Entrenar un modelo de clasificación que en base a una imagen de entrada, determine si esta ha sido generada por inteligencia artificial o si se trata de una imagen real.
 
