@@ -108,81 +108,145 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-function Sidebar() {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(3);
-    if ($[0] !== "ce07cfb063a001f2855b403c3d943af0bc3a9e4acf81ea0e2ff904312d943d20") {
-        for(let $i = 0; $i < 3; $i += 1){
+function Sidebar(t0) {
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
+    if ($[0] !== "01c05c68131de69900d734f4eb6555c09fabfd09a410e9aab6581c5c49f779c6") {
+        for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ce07cfb063a001f2855b403c3d943af0bc3a9e4acf81ea0e2ff904312d943d20";
+        $[0] = "01c05c68131de69900d734f4eb6555c09fabfd09a410e9aab6581c5c49f779c6";
     }
-    let t0;
+    const { isOpen, toggleSidebar } = t0;
+    const t1 = `fixed top-0 left-0 h-full w-44 bg-gray-800 text-white z-50 flex flex-col p-4 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"}`;
+    let t2;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "text-2xl font-bold mb-6 text-center",
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "text-2xl font-bold",
             children: "AI Detector"
         }, void 0, false, {
             fileName: "[project]/app/components/sidebar.tsx",
-            lineNumber: 13,
+            lineNumber: 18,
             columnNumber: 10
         }, this);
-        $[1] = t0;
+        $[1] = t2;
     } else {
-        t0 = $[1];
+        t2 = $[1];
     }
-    let t1;
+    let t3;
     if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-            className: "w-44 bg-gray-800 text-white flex flex-col p-4",
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            className: "w-6 h-6",
+            fill: "none",
+            stroke: "currentColor",
+            viewBox: "0 0 24 24",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: 2,
+                d: "M6 18L18 6M6 6l12 12"
+            }, void 0, false, {
+                fileName: "[project]/app/components/sidebar.tsx",
+                lineNumber: 25,
+                columnNumber: 89
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/app/components/sidebar.tsx",
+            lineNumber: 25,
+            columnNumber: 10
+        }, this);
+        $[2] = t3;
+    } else {
+        t3 = $[2];
+    }
+    let t4;
+    if ($[3] !== toggleSidebar) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between mb-6",
             children: [
-                t0,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "flex flex-col flex-1 justify-around items-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/",
-                            className: "w-40 h-16 mx-auto text-white \r\n                 bg-gradient-to-br from-purple-600 to-blue-500 \r\n                 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none \r\n                 focus:ring-blue-300 dark:focus:ring-blue-800 \r\n                 font-medium rounded text-sm text-center leading-5\r\n                 transition-transform transform hover:scale-105 flex items-center justify-center",
-                            children: "Principal"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/sidebar.tsx",
-                            lineNumber: 20,
-                            columnNumber: 145
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/aboutus",
-                            className: "w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 \r\n                 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none \r\n                 focus:ring-blue-300 dark:focus:ring-blue-800 \r\n                 font-medium rounded text-sm text-center leading-5\r\n                 transition-transform transform hover:scale-105 flex items-center justify-center",
-                            children: "Sobre El Proyecto"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/sidebar.tsx",
-                            lineNumber: 20,
-                            columnNumber: 600
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/howtouse",
-                            className: "w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 \r\n                 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none \r\n                 focus:ring-blue-300 dark:focus:ring-blue-800 \r\n                 font-medium rounded text-sm text-center leading-5\r\n                 transition-transform transform hover:scale-105 flex items-center justify-center",
-                            children: "Como Usarlo"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/sidebar.tsx",
-                            lineNumber: 20,
-                            columnNumber: 1049
-                        }, this)
-                    ]
-                }, void 0, true, {
+                t2,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: toggleSidebar,
+                    className: "text-white hover:text-gray-300",
+                    "aria-label": "Close menu",
+                    children: t3
+                }, void 0, false, {
                     fileName: "[project]/app/components/sidebar.tsx",
-                    lineNumber: 20,
-                    columnNumber: 79
+                    lineNumber: 32,
+                    columnNumber: 70
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/sidebar.tsx",
-            lineNumber: 20,
+            lineNumber: 32,
             columnNumber: 10
         }, this);
-        $[2] = t1;
+        $[3] = toggleSidebar;
+        $[4] = t4;
     } else {
-        t1 = $[2];
+        t4 = $[4];
     }
-    return t1;
+    let t5;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+            className: "flex flex-col flex-1 justify-around items-center",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/",
+                    className: "w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded text-sm text-center leading-5 transition-transform transform hover:scale-105 flex items-center justify-center",
+                    children: "Principal"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/sidebar.tsx",
+                    lineNumber: 40,
+                    columnNumber: 76
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/aboutus",
+                    className: "w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded text-sm text-center leading-5 transition-transform transform hover:scale-105 flex items-center justify-center",
+                    children: "Sobre El Proyecto"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/sidebar.tsx",
+                    lineNumber: 40,
+                    columnNumber: 425
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/howtouse",
+                    className: "w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded text-sm text-center leading-5 transition-transform transform hover:scale-105 flex items-center justify-center",
+                    children: "Como Usarlo"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/sidebar.tsx",
+                    lineNumber: 40,
+                    columnNumber: 789
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/sidebar.tsx",
+            lineNumber: 40,
+            columnNumber: 10
+        }, this);
+        $[5] = t5;
+    } else {
+        t5 = $[5];
+    }
+    let t6;
+    if ($[6] !== t1 || $[7] !== t4) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+            className: t1,
+            children: [
+                t4,
+                t5
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/sidebar.tsx",
+            lineNumber: 47,
+            columnNumber: 10
+        }, this);
+        $[6] = t1;
+        $[7] = t4;
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    return t6;
 }
 _c = Sidebar;
 var _c;
@@ -212,83 +276,76 @@ var _s = __turbopack_context__.k.signature();
 ;
 function LayoutWrapper(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "60465ddff6335cf2178ae2c2e3fe0c5f9c1b128ea536332ce4b2098ec425bc76") {
-        for(let $i = 0; $i < 13; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
+    if ($[0] !== "0913a35d76925458bef609523ccee5935796a895ecea98e8ebe5e93e6e8d12f5") {
+        for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "60465ddff6335cf2178ae2c2e3fe0c5f9c1b128ea536332ce4b2098ec425bc76";
+        $[0] = "0913a35d76925458bef609523ccee5935796a895ecea98e8ebe5e93e6e8d12f5";
     }
     const { children } = t0;
     const [showSidebar, setShowSidebar] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t1;
-    if ($[1] !== showSidebar) {
-        t1 = showSidebar && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/app/components/LayoutWrapper.tsx",
-            lineNumber: 21,
-            columnNumber: 25
-        }, this);
-        $[1] = showSidebar;
-        $[2] = t1;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = ({
+            "LayoutWrapper[<Sidebar>.toggleSidebar]": ()=>setShowSidebar(false)
+        })["LayoutWrapper[<Sidebar>.toggleSidebar]"];
+        $[1] = t1;
     } else {
-        t1 = $[2];
+        t1 = $[1];
     }
     let t2;
-    if ($[3] !== showSidebar) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    if ($[2] !== showSidebar) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            isOpen: showSidebar,
+            toggleSidebar: t1
+        }, void 0, false, {
+            fileName: "[project]/app/components/LayoutWrapper.tsx",
+            lineNumber: 30,
+            columnNumber: 10
+        }, this);
+        $[2] = showSidebar;
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    let t3;
+    if ($[4] !== showSidebar) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             toggleSidebar: {
                 "LayoutWrapper[<Navbar>.toggleSidebar]": ()=>setShowSidebar(!showSidebar)
             }["LayoutWrapper[<Navbar>.toggleSidebar]"]
         }, void 0, false, {
             fileName: "[project]/app/components/LayoutWrapper.tsx",
-            lineNumber: 29,
+            lineNumber: 38,
             columnNumber: 10
         }, this);
-        $[3] = showSidebar;
-        $[4] = t2;
+        $[4] = showSidebar;
+        $[5] = t3;
     } else {
-        t2 = $[4];
+        t3 = $[5];
     }
-    let t3;
-    if ($[5] !== children) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+    let t4;
+    if ($[6] !== children) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
             className: "flex-1 p-6 bg-gray-100",
             children: children
         }, void 0, false, {
             fileName: "[project]/app/components/LayoutWrapper.tsx",
-            lineNumber: 39,
+            lineNumber: 48,
             columnNumber: 10
         }, this);
-        $[5] = children;
-        $[6] = t3;
+        $[6] = children;
+        $[7] = t4;
     } else {
-        t3 = $[6];
-    }
-    let t4;
-    if ($[7] !== t2 || $[8] !== t3) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col flex-1",
-            children: [
-                t2,
-                t3
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/components/LayoutWrapper.tsx",
-            lineNumber: 47,
-            columnNumber: 10
-        }, this);
-        $[7] = t2;
-        $[8] = t3;
-        $[9] = t4;
-    } else {
-        t4 = $[9];
+        t4 = $[7];
     }
     let t5;
-    if ($[10] !== t1 || $[11] !== t4) {
+    if ($[8] !== t3 || $[9] !== t4) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex h-screen",
+            className: "flex flex-col h-full",
             children: [
-                t1,
+                t3,
                 t4
             ]
         }, void 0, true, {
@@ -296,13 +353,32 @@ function LayoutWrapper(t0) {
             lineNumber: 56,
             columnNumber: 10
         }, this);
-        $[10] = t1;
-        $[11] = t4;
-        $[12] = t5;
+        $[8] = t3;
+        $[9] = t4;
+        $[10] = t5;
     } else {
-        t5 = $[12];
+        t5 = $[10];
     }
-    return t5;
+    let t6;
+    if ($[11] !== t2 || $[12] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative h-screen overflow-hidden",
+            children: [
+                t2,
+                t5
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/LayoutWrapper.tsx",
+            lineNumber: 65,
+            columnNumber: 10
+        }, this);
+        $[11] = t2;
+        $[12] = t5;
+        $[13] = t6;
+    } else {
+        t6 = $[13];
+    }
+    return t6;
 }
 _s(LayoutWrapper, "Jn+Blp4AInVy8bzFY0VrkhtmHTg=");
 _c = LayoutWrapper;

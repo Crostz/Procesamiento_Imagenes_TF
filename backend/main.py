@@ -36,7 +36,7 @@ async def predict(file: UploadFile = File(...)):
     arr = preprocess_image(image)
     prediction = model.predict(arr)[0][0]  # single float
     label = "AI-generated" if prediction < 0.5 else "Real"
-    confidence = float(prediction if label == "AI-generated" else 1 - prediction)
+    confidence = float(1 - prediction if label == "AI-generated" else prediction)
 
 
     return JSONResponse({

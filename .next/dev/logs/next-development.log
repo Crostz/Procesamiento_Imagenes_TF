@@ -1,3 +1,346 @@
-[00:00:03.887] Server  LOG      ✓ Ready in 2.9s
-[00:00:09.298] Server  LOG      ○ Compiling / ...
-[00:00:22.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.967] Server  LOG      ✓ Ready in 2.2s
+[00:00:19.044] Server  LOG      ○ Compiling / ...
+[00:00:31.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.063] Server  LOG      ✓ Compiled in 189ms
+[00:02:14.236] Server  LOG      ✓ Compiled in 224ms
+[00:03:02.570] Server  LOG      ✓ Compiled in 170ms
+[00:03:07.361] Server  LOG      ✓ Compiled in 194ms
+[00:04:27.527] Server  LOG      ✓ Compiled in 114ms
+[00:04:31.921] Server  LOG      ✓ Compiled in 117ms
+[00:04:41.967] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:42.136] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <Head>
+          <__next_root_layout_boundary__>
+            <SegmentViewNode type="layout" pagePath="layout.tsx">
+              <SegmentTrieNode>
+              <link>
+              <script>
+              <script>
+              <script>
+              <RootLayout>
+                <html lang="en">
+                  <body>
+                    <LayoutWrapper>
+                      <div className="flex h-scr...">
+                        <Sidebar isOpen={false}>
+                          <aside className="fixed left...">
+                            <h1>
+                            <nav className="flex flex-...">
+                              <LinkComponent href="/" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white \r\n                 bg-gradient-to-br fro..."}
+-                                 className="w-40 h-16 mx-auto text-white    bg-gradient-to-br from-purple-600 to-blue..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/"
+                                >
++                                 Principal
+                              <LinkComponent href="/aboutus" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-..."}
+-                                 className="w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-50..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/aboutus"
+                                >
++                                 Sobre El Proyecto
+                              <LinkComponent href="/howtouse" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-..."}
+-                                 className="w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-50..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/howtouse"
+                                >
++                                 Como Usarlo
+                        ...
+          ...
+
+[00:05:21.430] Server  LOG      ✓ Compiled in 123ms
+[00:05:26.493] Server  LOG      ✓ Compiled in 84ms
+[00:05:56.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:57.000] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <Head>
+          <__next_root_layout_boundary__>
+            <SegmentViewNode type="layout" pagePath="layout.tsx">
+              <SegmentTrieNode>
+              <link>
+              <script>
+              <script>
+              <script>
+              <RootLayout>
+                <html lang="en">
+                  <body>
+                    <LayoutWrapper>
+                      <div className="flex h-screen">
+                        <Sidebar isOpen={false}>
+                          <aside className="w-44 bg-gr...">
+                            <h1>
+                            <nav className="flex flex-...">
+                              <LinkComponent href="/" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white \r\n                 bg-gradient-to-br fro..."}
+-                                 className="w-40 h-16 mx-auto text-white    bg-gradient-to-br from-purple-600 to-blue..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/"
+                                >
++                                 Principal
+                              <LinkComponent href="/aboutus" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-..."}
+-                                 className="w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-50..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/aboutus"
+                                >
++                                 Sobre El Proyecto
+                              <LinkComponent href="/howtouse" className={"w-40 h-1..."}>
+                                <a
++                                 className={"w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-..."}
+-                                 className="w-40 h-16 mx-auto text-white bg-gradient-to-br from-purple-600 to-blue-50..."
+                                  ref={function}
+                                  onClick={function onClick}
+                                  onMouseEnter={function onMouseEnter}
+                                  onTouchStart={function onTouchStart}
+                                  href="/howtouse"
+                                >
++                                 Como Usarlo
+                        ...
+          ...
+
+[00:06:21.536] Server  LOG      ✓ Compiled in 50ms
+[00:06:26.694] Server  LOG      ✓ Compiled in 90ms
+[00:06:31.368] Server  LOG      ✓ Compiled in 82ms
+[00:06:37.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:10.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:11.878] Server  LOG      ✓ Compiled in 777ms
+[00:40:16.004] Server  LOG      ✓ Compiled in 294ms
+[00:41:30.021] Server  LOG      ✓ Compiled in 170ms
+[00:41:40.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:00.258] Server  LOG      ✓ Compiled in 356ms
+[00:42:05.594] Server  LOG      ✓ Compiled in 79ms
+[00:42:10.351] Server  LOG      ✓ Compiled in 76ms
+[00:42:11.089] Browser ERROR   ./app/components/sidebar.tsx:38:2
+Parsing ecmascript source code failed
+  36 |
+  37 |   );
+> 38 | }
+     |  ^
+  39 |
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/sidebar.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/sidebar.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:42:12.081] Browser ERROR   ./app/components/sidebar.tsx:38:2
+Parsing ecmascript source code failed
+  36 |
+  37 |   );
+> 38 | }
+     |  ^
+  39 |
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/sidebar.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/sidebar.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:42:13.080] Browser ERROR   ./app/components/sidebar.tsx:38:2
+Parsing ecmascript source code failed
+  36 |
+  37 |   );
+> 38 | }
+     |  ^
+  39 |
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/components/sidebar.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/sidebar.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:42:16.084] Browser ERROR   uncaughtError: TypeError: Component is not a function
+[00:42:26.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:58.466] Server  LOG      ✓ Compiled in 145ms
+[00:43:03.127] Server  LOG      ✓ Compiled in 54ms
+[00:43:04.087] Browser ERROR   ./app/components/sidebar.tsx:36:2
+Parsing ecmascript source code failed
+  34 | </aside>
+  35 |   );
+> 36 | });
+     |  ^
+  37 |
+  38 | Sidebar.displayName = "Sidebar";
+  39 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/components/sidebar.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/sidebar.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:43:05.088] Browser ERROR   ./app/components/sidebar.tsx:36:2
+Parsing ecmascript source code failed
+  34 | </aside>
+  35 |   );
+> 36 | });
+     |  ^
+  37 |
+  38 | Sidebar.displayName = "Sidebar";
+  39 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/components/sidebar.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Client Component Browser]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/sidebar.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Client Component SSR]
+    ./app/components/LayoutWrapper.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:43:09.086] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'displayName')
+[00:43:13.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:41.497] Server  LOG      ✓ Compiled in 202ms
+[00:44:51.554] Server  LOG      ✓ Compiled in 147ms
+[00:44:58.652] Server  LOG      ✓ Compiled in 91ms
+[00:45:06.262] Server  LOG      ✓ Compiled in 212ms
+[00:45:58.158] Server  LOG      ✓ Compiled in 117ms
+[00:46:03.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:42.373] Server  LOG      ✓ Compiled in 204ms
+[00:51:00.891] Server  LOG      ✓ Compiled in 217ms
+[00:53:45.382] Server  LOG      ✓ Compiled in 256ms
+[00:54:13.464] Browser ERROR   Error de carga: {}
+[00:55:21.980] Server  LOG      ✓ Compiled in 169ms
+[00:55:38.056] Server  LOG      ✓ Compiled in 188ms
+[00:55:51.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:09.358] Server  LOG      ✓ Compiled in 136ms
+[00:56:14.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:48.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:29.243] Server  LOG      ✓ Compiled in 413ms
+[01:00:58.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:51.136] Server  LOG      ✓ Compiled in 830ms
+[01:01:59.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:43.182] Server  LOG      ✓ Compiled in 279ms
+[01:04:27.909] Server  LOG      ✓ Compiled in 261ms
+[01:04:32.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:45.325] Server  LOG      ✓ Compiled in 136ms
+[01:04:53.732] Server  LOG      ✓ Compiled in 111ms
+[01:05:10.355] Server  LOG      ✓ Compiled in 160ms
+[01:05:18.040] Server  LOG      ✓ Compiled in 120ms
+[01:05:21.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:34.740] Server  LOG      ✓ Compiled in 126ms
+[01:05:38.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:38.040] Server  LOG      ✓ Compiled in 155ms
+[01:06:48.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:44.986] Server  LOG      ✓ Compiled in 121ms
+[01:08:54.889] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:16.780] Server  LOG      ✓ Compiled in 123ms
+[01:09:25.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:56.781] Server  LOG      ✓ Compiled in 4.4s
+[01:12:00.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:28.553] Server  LOG      ✓ Compiled in 2.3s
+[01:12:31.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:59.037] Server  LOG      ✓ Compiled in 1504ms
+[01:13:43.046] Server  LOG      ✓ Compiled in 964ms
+[01:13:55.070] Server  LOG      ✓ Compiled in 79ms
+[01:13:58.725] Server  LOG      ✓ Compiled in 124ms
+[01:14:06.958] Server  LOG      ✓ Compiled in 121ms
+[01:14:13.441] Server  LOG      ✓ Compiled in 104ms
+[01:14:31.594] Server  LOG      ✓ Compiled in 68ms
+[01:14:40.908] Server  LOG      ✓ Compiled in 144ms
+[01:14:46.077] Server  LOG      ✓ Compiled in 115ms
+[01:14:50.101] Server  LOG      ✓ Compiled in 94ms
+[01:15:11.665] Server  LOG      ✓ Compiled in 102ms
+[01:15:20.421] Server  LOG      ✓ Compiled in 115ms
+[01:15:34.926] Server  LOG      ✓ Compiled in 107ms
+[01:16:22.912] Server  LOG      ✓ Compiled in 90ms
+[01:16:27.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:59.059] Server  LOG      ✓ Compiled in 1437ms
+[01:17:19.395] Server  LOG      ✓ Compiled in 154ms
+[01:17:25.846] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:44.914] Server  LOG      ✓ Compiled in 134ms
+[01:17:50.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:40.773] Server  LOG      ✓ Compiled in 192ms
+[01:20:53.676] Server  LOG      ✓ Compiled in 383ms
+[01:21:04.495] Server  LOG      ✓ Compiled in 146ms
