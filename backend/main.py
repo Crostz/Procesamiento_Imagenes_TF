@@ -11,7 +11,7 @@ app = FastAPI()
 # Allow requests from your Next.js dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Next.js dev server
+    allow_origins=["https://cc235-tp-tf-2025-1.onrender.com"],  # Next.js dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -44,3 +44,4 @@ async def predict(file: UploadFile = File(...)):
         "confidence": confidence,
         "explanation": "Model inference completed successfully"
     })
+
